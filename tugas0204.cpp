@@ -12,4 +12,11 @@ int main(){
 	x=par*jumblah;
 	y=luasrumah/x;
 	jmlhbox=y*234.495;
+	cout<<"jumblah box parket\t: "<<jmlhbox<<endl;
+	biayapar=jmlhbox*500;
+	cout<<"biaya parket (Rp)\t: "<<biayapar<<endl;
+	biayapas=luasrumah*20;
+	cout<<"biaya pasang (Rp)\t: "<<biayapas<<endl;
+	totalbilgn=biayapar+biayapas;
+	cout<<"total biaya (Rp)\t: "<<totalbilgn<<endl;
 }
