@@ -7,8 +7,9 @@ int main(){
 	
 	cout<<"Luas Rumah\t\t: ";
 	cin>>luasrumah;
-	cout<<"Jumblah Box Parket\t\t: ";cin>>jumblah;
+	cout<<"Jumblah Box Parket\t: ";cin>>jumblah;
 	cout<<"-------------------------------------------------"<<endl;
+	cout<<"Luas Rumah\t : "<<luasrumah<<"m2"<<endl;
 	x=par*jumblah;
 	y=luasrumah/x;
 	jmlhbox=y*234.495;
