@@ -5,18 +5,18 @@ int main(){
 	
 	double luasrumah,par=1.87596,jumblah,biayapar,biayapas,jmlhbox,totalbilgn,x,y;
 	
-	cout<<"luas rumah\t\t: ";
+	cout<<"Luas Rumah\t\t: ";
 	cin>>luasrumah;
-	cout<<"jumblah box Parket\t\t: ";cin>>jumblah;
+	cout<<"Jumblah Box Parket\t\t: ";cin>>jumblah;
 	cout<<"-------------------------------------------------"<<endl;
 	x=par*jumblah;
 	y=luasrumah/x;
 	jmlhbox=y*234.495;
-	cout<<"jumblah box parket\t: "<<jmlhbox<<endl;
+	cout<<"Jumblah Box parket\t: "<<jmlhbox<<endl;
 	biayapar=jmlhbox*500;
-	cout<<"biaya parket (Rp)\t: "<<biayapar<<endl;
+	cout<<"Biaya Parket (Rp)\t: "<<biayapar<<endl;
 	biayapas=luasrumah*20;
-	cout<<"biaya pasang (Rp)\t: "<<biayapas<<endl;
+	cout<<"Biaya Pasang (Rp)\t: "<<biayapas<<endl;
 	totalbilgn=biayapar+biayapas;
-	cout<<"total biaya (Rp)\t: "<<totalbilgn<<endl;
+	cout<<"Total Biaya (Rp)\t: "<<totalbilgn<<endl;
 }
